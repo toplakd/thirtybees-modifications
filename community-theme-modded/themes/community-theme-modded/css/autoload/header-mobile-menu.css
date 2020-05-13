@@ -1,0 +1,254 @@
+.mobile_button_container {
+    display: block;
+}
+
+/* w3schools css */
+.w3-spin{animation:w3-spin 2s infinite linear}@keyframes w3-spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
+.w3-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.w3-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.w3-animate-top{position:relative;animation:animatetop 0.6s}@keyframes animatetop{from{top:-500px;opacity:0} to{top:0px;opacity:1}}
+.w3-animate-left{position:relative;animation:animateleft 0.6s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.w3-animate-right{position:relative;animation:animateright 0.6s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.w3-animate-bottom{position:relative;animation:animatebottom 0.6s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+.w3-animate-zoom {animation:animatezoom 0.2s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+.w3-animate-input{transition:width 0.4s ease-in-out}.w3-animate-input:focus{width:100%!important}
+
+.w3-overlay{
+    position:fixed;
+    display:none;
+    width:100%;
+    height:100%;
+    top:50px;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:5000;
+	background-color:rgba(0,0,0,0.7);
+    transition: background-color .1s ease-in-out;
+}
+
+#mySidebar1 .block,
+#mySidebar2 .block,
+#mySidebar3 .block,
+#mySidebar4 .block {
+    margin-bottom: 5px;
+}
+
+#mySidebar1 .block .title_block,
+#mySidebar2 .block .title_block,
+#mySidebar3 .block .title_block,
+#mySidebar4 .block .title_block {
+    border-radius: 0px;
+    border-top: 2px solid #428bce;
+}
+
+
+#mySidebar3 ul li {
+    padding: 0px;
+}
+
+#mySidebar3 ul li > a {
+    display: block;
+    padding: 6px;
+}
+
+#mySidebar3 ul li > a:hover {
+    background-color: #428bce;
+    color: #fff;
+}
+
+#mySidebar3 .dropdown-menu {
+    position: relative;
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px
+}
+
+#mySidebar3 #blockcontact-phone {
+    padding: 10px 5px;
+}
+
+
+#blockcart-dropdown { display: block; }
+
+#mySidebar3 #blockuserinfo-customer, #mySidebar3 #blockuserinfo-login {
+    color: #fff;
+    background: #323A46;
+    font-size: 22px;
+    line-height: 1.1;
+    border-bottom: 2px solid #428bce;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+}
+
+#mySidebar3 #blockuserinfo-customer a, #mySidebar3 #blockuserinfo-login a {
+    color: #fff;
+    padding: 0;
+}
+
+#mySidebar3 #blockuserinfo-customer a:hover, #mySidebar3 #blockuserinfo-login a:hover {
+    background-color: transparent;
+}
+
+#mySidebar3 .myaccount-column .logout {
+    display: none;
+}
+
+#mySidebar2 {
+    right: -320px;
+    height: calc(100% - 50px);
+    width: 310px;
+    top: 50px;
+    background: #fff;
+    padding: 5px;
+    position: fixed;
+    overflow-x: hidden;
+    z-index: 5004;
+    transition: all 0.5s;
+}
+
+#mySidebar2.active {
+    right: 0px;
+}
+
+#mySidebar3 {
+    text-align: center;
+    right: -320px;
+    height: calc(100% - 50px);
+    width: 310px;
+    top: 50px;
+    background: #fff;
+    padding: 5px;
+    position: fixed;
+    overflow-x: hidden;
+    transition: width 0.4s ease-in-out;
+    z-index: 5004;
+    transition: all 0.5s;
+}
+
+#mySidebar3.active {
+    right: 0px;
+}
+
+#mySidebar3 .navbar-text, #mySidebar3 .navbar-text a {
+    float: none;
+    margin: 0;
+    color: #333;
+}
+
+#mySidebar4 {
+    color:transparent;
+    left: -300px;
+    max-height: calc(100% - 70px);
+    width:290px;
+    top: 60px;
+    position: fixed;
+    overflow-x: hidden;
+    transition: width 0.4s ease-in-out;
+    z-index: 5005;
+    transition: all 0.5s;
+}
+
+#mySidebar4.active {
+    left: 15px;
+}
+
+
+/* alza-top-navigation-bar */
+.alza-toggle-button {
+    font-size: 36px;
+    background: #323A46;
+    border: 0;
+    color: #fff;
+    margin-top: 4px;
+    border-radius: 3px;
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0px; /* needed for ios*/
+}
+
+.alza-toggle-button:hover {
+    background: #428bce;
+    box-shadow: none;
+}
+
+.alza-toggle-button:focus {
+    outline: 0;
+}
+.alza-toggle-button-width {
+    text-align: center;
+    margin: 0 5px;
+    float: left;
+}
+
+.alza-nav-buttons-left { float:left; }
+.alza-nav-buttons-right { float:right; }
+
+.mini-logo {
+margin: auto;
+position: absolute;
+top: 6px;
+left: 0;
+right: 0;
+z-index: -1;
+width: 40px;
+}
+
+@media (max-width: 767px) {
+    #category-info,
+    #category-subcategories,
+    #blockcategories-footer,
+    #blockcms-footer,
+    #blockmyaccountfooter,
+    #header-blocks #search_block_top,
+    #block_top_menu,
+    #left_column,
+    #layer_cart .crossseling,
+    .navbar-header {
+        display: none;
+    }
+    
+    #columns { padding-bottom: 0px; }
+
+    #mySidebar1 {
+        left: -320px;
+        height: calc(100% - 50px);
+        width:310px;
+        top: 50px;
+        position: fixed;
+        overflow-x: hidden;
+        transition: width 0.4s ease-in-out;
+        z-index: 5005;
+        transition: all 0.5s;
+        background: #fff;
+        padding: 5px;
+    }
+
+    #mySidebar1.active {
+        left: 0px;
+    }
+
+    #mySidebar1 .block {
+        border: none;
+        box-shadow: none;
+        border-radius: 0px;
+        margin-bottom: 5px;
+    }
+
+    #mySidebar1 #search_block_top {
+        float: none;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    #mySidebar1,
+    .alza-nav-buttons-left,
+    .alza-nav-buttons-right .alza-toggle-button-user {
+        display: none;
+    }
+}

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme version="1.0" name="Community-Theme-Modded" directory="community-theme-modded">
+  <author name="Community-Theme-Modded" email="info@thirtybees.com" url="http://www.thirtybees.com"/>
+  <descriptions>
+    <description iso="en"/>
+  </descriptions>
+  <variations>
+    <variation name="Community-Theme-Modded" directory="community-theme-modded" responsive="1" default_left_column="0" default_right_column="0" product_per_page="18" from="1.1.0"/>
+  </variations>
+  <docs>
+    <doc name="documentation" path="doc/"/>
+  </docs>
+  <metas>
+    <meta meta_page="address" left="0" right="0"/>
+    <meta meta_page="addresses" left="0" right="0"/>
+    <meta meta_page="attachment" left="1" right="0"/>
+    <meta meta_page="authentication" left="0" right="0"/>
+    <meta meta_page="best-sales" left="1" right="0"/>
+    <meta meta_page="cart" left="0" right="0"/>
+    <meta meta_page="category" left="1" right="0"/>
+    <meta meta_page="changecurrency" left="1" right="0"/>
+    <meta meta_page="cms" left="1" right="0"/>
+    <meta meta_page="contact" left="0" right="0"/>
+    <meta meta_page="discount" left="0" right="0"/>
+    <meta meta_page="favicon" left="1" right="0"/>
+    <meta meta_page="getfile" left="1" right="0"/>
+    <meta meta_page="guest-tracking" left="0" right="0"/>
+    <meta meta_page="history" left="0" right="0"/>
+    <meta meta_page="identity" left="0" right="0"/>
+    <meta meta_page="index" left="0" right="0"/>
+    <meta meta_page="manufacturer" left="1" right="0"/>
+    <meta meta_page="my-account" left="0" right="0"/>
+    <meta meta_page="new-products" left="1" right="0"/>
+    <meta meta_page="order" left="0" right="0"/>
+    <meta meta_page="order-confirmation" left="0" right="0"/>
+    <meta meta_page="order-detail" left="1" right="0"/>
+    <meta meta_page="order-follow" left="0" right="0"/>
+    <meta meta_page="order-opc" left="0" right="0"/>
+    <meta meta_page="order-return" left="1" right="0"/>
+    <meta meta_page="order-slip" left="0" right="0"/>
+    <meta meta_page="pagenotfound" left="1" right="0"/>
+    <meta meta_page="password" left="0" right="0"/>
+    <meta meta_page="pdf-invoice" left="1" right="0"/>
+    <meta meta_page="pdf-order-return" left="1" right="0"/>
+    <meta meta_page="pdf-order-slip" left="1" right="0"/>
+    <meta meta_page="prices-drop" left="1" right="0"/>
+    <meta meta_page="product" left="0" right="0"/>
+    <meta meta_page="products-comparison" left="0" right="0"/>
+    <meta meta_page="search" left="1" right="0"/>
+    <meta meta_page="sitemap" left="1" right="0"/>
+    <meta meta_page="statistics" left="1" right="0"/>
+    <meta meta_page="stores" left="0" right="0"/>
+    <meta meta_page="supplier" left="0" right="0"/>
+    <meta meta_page="module-bankwire-payment" left="0" right="0"/>
+    <meta meta_page="module-bankwire-validation" left="0" right="0"/>
+    <meta meta_page="module-blocknewsletter-verification" left="1" right="0"/>
+    <meta meta_page="module-paypal-expresscheckout" left="0" right="0"/>
+    <meta meta_page="module-paypal-expresscheckoutsubmit" left="0" right="0"/>
+    <meta meta_page="module-paypal-standardcancel" left="0" right="0"/>
+    <meta meta_page="module-paypal-incontextajax" left="0" right="0"/>
+    <meta meta_page="module-paypal-incontextvalidate" left="0" right="0"/>
+    <meta meta_page="module-paypal-incontextconfirm" left="0" right="0"/>
+    <meta meta_page="module-paypal-pluseu" left="0" right="0"/>
+    <meta meta_page="module-paypal-plussubmit" left="0" right="0"/>
+    <meta meta_page="module-paypal-pluscancel" left="0" right="0"/>
+    <meta meta_page="module-paypal-logintoken" left="0" right="0"/>
+    <meta meta_page="module-paypal-orderconfirmation" left="0" right="0"/>
+  </metas>
+  <modules>
+    <module action="install" name="blockcategoriesmobile"/>
+    <module action="enable" name="blockbanner"/>
+    <module action="enable" name="blockbestsellers"/>
+    <module action="enable" name="blockcart"/>
+    <module action="enable" name="blockcategories"/>
+    <module action="enable" name="blockcategoriesmobile"/>
+    <module action="enable" name="blockcms"/>
+    <module action="enable" name="blockcmsinfo"/>
+    <module action="enable" name="blockcontact"/>
+    <module action="enable" name="blockcontactinfos"/>
+    <module action="enable" name="blockcurrencies"/>
+    <module action="enable" name="blocklanguages"/>
+    <module action="enable" name="blockmyaccount"/>
+    <module action="enable" name="blockmyaccountfooter"/>
+    <module action="enable" name="blocknewproducts"/>
+    <module action="enable" name="blocknewsletter"/>
+    <module action="enable" name="blockpaymentlogo"/>
+    <module action="enable" name="blocksearch"/>
+    <module action="enable" name="blocksocial"/>
+    <module action="enable" name="blockspecials"/>
+    <module action="enable" name="blockstore"/>
+    <module action="enable" name="blocktopmenu"/>
+    <module action="enable" name="blockuserinfo"/>
+    <module action="enable" name="homefeatured"/>
+    <module action="enable" name="homeslider"/>
+    <module action="enable" name="productpaymentlogos"/>
+    <module action="enable" name="socialsharing"/>
+    <module action="enable" name="tbhtmlblock"/>
+    <module action="enable" name="themeconfigurator"/>
+    <module action="disable" name="advancedeucompliance"/>
+    <module action="disable" name="beesblog"/>
+    <module action="disable" name="beesblogcategories"/>
+    <module action="disable" name="beesblogpopularposts"/>
+    <module action="disable" name="beesblogrecentposts"/>
+    <module action="disable" name="beesblogrelatedproducts"/>
+    <module action="disable" name="blockcustomerprivacy"/>
+    <module action="disable" name="blockfacebook"/>
+    <module action="disable" name="blocklayered"/>
+    <module action="disable" name="blocklink"/>
+    <module action="disable" name="blockmanufacturer"/>
+    <module action="disable" name="blockpermanentlinks"/>
+    <module action="disable" name="blockreinsurance"/>
+    <module action="disable" name="blockrss"/>
+    <module action="disable" name="blocksharefb"/>
+    <module action="disable" name="blocksupplier"/>
+    <module action="disable" name="blocktags"/>
+    <module action="disable" name="blockviewed"/>
+    <module action="disable" name="blockwishlist"/>
+    <module action="disable" name="cookiebot"/>
+    <module action="disable" name="crossselling"/>
+    <module action="disable" name="ctconfiguration"/>
+    <module action="disable" name="dateofdelivery"/>
+    <module action="disable" name="eucookieconsent"/>
+    <module action="disable" name="loyalty"/>
+    <module action="disable" name="mailalerts"/>
+    <module action="disable" name="maxmindgeoip2"/>
+    <module action="disable" name="nocaptcharecaptcha"/>
+    <module action="disable" name="productcomments"/>
+    <module action="disable" name="productscategory"/>
+    <module action="disable" name="producttooltip"/>
+    <module action="disable" name="referralprogram"/>
+    <module action="disable" name="sendtoafriend"/>
+    <module action="disable" name="tawkto"/>
+    <module action="disable" name="thememanager"/>
+    <hooks>
+      <hook module="blockbanner" hook="Header" position="28"/>
+      <hook module="blockbanner" hook="displayBanner" position="1"/>
+      <hook module="blockbestsellers" hook="Header" position="2"/>
+      <hook module="blockbestsellers" hook="displayHomeTab" position="3"/>
+      <hook module="blockbestsellers" hook="displayHomeTabContent" position="3"/>
+      <hook module="blockbestsellers" hook="displayLeftColumn" position="1" exceptions="category"/>
+      <hook module="blockcart" hook="Header" position="3"/>
+      <hook module="blockcart" hook="displayTop" position="2"/>
+      <hook module="blockcategories" hook="Header" position="5"/>
+      <hook module="blockcategories" hook="displayLeftColumn" position="2"/>
+      <hook module="blockcategoriesmobile" hook="Header" position="25"/>
+      <hook module="blockcategoriesmobile" hook="displayRightColumn" position="1"/>
+      <hook module="blockcms" hook="Header" position="9"/>
+      <hook module="blockcms" hook="displayFooter" position="3"/>
+      <hook module="blockcms" hook="displayLeftColumn" position="4"/>
+      <hook module="blockcmsinfo" hook="displayHome" position="3"/>
+      <hook module="blockcontact" hook="Header" position="10"/>
+      <hook module="blockcontact" hook="displayNav" position="4"/>
+      <hook module="blockcontactinfos" hook="Header" position="12"/>
+      <hook module="blockcontactinfos" hook="displayFooter" position="5"/>
+      <hook module="blockcurrencies" hook="Header" position="6"/>
+      <hook module="blockcurrencies" hook="displayNav" position="2"/>
+      <hook module="blocklanguages" hook="Header" position="7"/>
+      <hook module="blocklanguages" hook="displayNav" position="3"/>
+      <hook module="blockmyaccount" hook="Header" position="11"/>
+      <hook module="blockmyaccount" hook="displayLeftColumn" position="5" exceptions="category"/>
+      <hook module="blockmyaccountfooter" hook="Header" position="13"/>
+      <hook module="blockmyaccountfooter" hook="displayFooter" position="4"/>
+      <hook module="blocknewproducts" hook="Header" position="14"/>
+      <hook module="blocknewproducts" hook="displayHome" position="2"/>
+      <hook module="blocknewproducts" hook="displayHomeTab" position="1"/>
+      <hook module="blocknewproducts" hook="displayHomeTabContent" position="1"/>
+      <hook module="blocknewproducts" hook="displayLeftColumn" position="6"/>
+      <hook module="blocknewsletter" hook="Header" position="15"/>
+      <hook module="blocknewsletter" hook="displayFooter" position="1"/>
+      <hook module="blockpaymentlogo" hook="Header" position="16"/>
+      <hook module="blockpaymentlogo" hook="displayLeftColumn" position="7" exceptions="category"/>
+      <hook module="blocksearch" hook="Header" position="17"/>
+      <hook module="blocksearch" hook="displayMobileTopSiteMap" position="1"/>
+      <hook module="blocksearch" hook="displayTop" position="1"/>
+      <hook module="blocksocial" hook="Header" position="4"/>
+      <hook module="blocksocial" hook="displayFooter" position="2"/>
+      <hook module="blockspecials" hook="Header" position="18"/>
+      <hook module="blockspecials" hook="displayLeftColumn" position="8"/>
+      <hook module="blockstore" hook="Header" position="19"/>
+      <hook module="blockstore" hook="displayLeftColumn" position="9"/>
+      <hook module="blocktopmenu" hook="Header" position="26"/>
+      <hook module="blocktopmenu" hook="displayTop" position="3"/>
+      <hook module="blockuserinfo" hook="Header" position="20"/>
+      <hook module="blockuserinfo" hook="displayNav" position="1"/>
+      <hook module="blockuserinfo" hook="displayTop" position="4"/>
+      <hook module="homefeatured" hook="Header" position="23"/>
+      <hook module="homefeatured" hook="displayHomeTab" position="2"/>
+      <hook module="homefeatured" hook="displayHomeTabContent" position="2"/>
+      <hook module="homeslider" hook="Header" position="21"/>
+      <hook module="homeslider" hook="displayTopColumn" position="1"/>
+      <hook module="productpaymentlogos" hook="Header" position="22"/>
+      <hook module="productpaymentlogos" hook="displayProductButtons" position="1"/>
+      <hook module="socialsharing" hook="Header" position="1"/>
+      <hook module="socialsharing" hook="displayCompareExtraInformation" position="1"/>
+      <hook module="socialsharing" hook="displayRightColumnProduct" position="1"/>
+      <hook module="tbhtmlblock" hook="Header" position="29"/>
+      <hook module="tbhtmlblock" hook="displayBeforeCarrier" position="1"/>
+      <hook module="tbhtmlblock" hook="displayBeforePayment" position="1"/>
+      <hook module="tbhtmlblock" hook="displayCustomerAccount" position="1"/>
+      <hook module="tbhtmlblock" hook="displayCustomerAccountForm" position="1"/>
+      <hook module="tbhtmlblock" hook="displayCustomerAccountFormTop" position="1"/>
+      <hook module="tbhtmlblock" hook="displayFooter" position="8"/>
+      <hook module="tbhtmlblock" hook="displayFooterProduct" position="2"/>
+      <hook module="tbhtmlblock" hook="displayHome" position="4"/>
+      <hook module="tbhtmlblock" hook="displayHomeTab" position="4"/>
+      <hook module="tbhtmlblock" hook="displayHomeTabContent" position="4"/>
+      <hook module="tbhtmlblock" hook="displayInvoice" position="1"/>
+      <hook module="tbhtmlblock" hook="displayLeftColumn" position="11"/>
+      <hook module="tbhtmlblock" hook="displayLeftColumnProduct" position="1"/>
+      <hook module="tbhtmlblock" hook="displayMaintenance" position="1"/>
+      <hook module="tbhtmlblock" hook="displayMyAccountBlock" position="1"/>
+      <hook module="tbhtmlblock" hook="displayMyAccountBlockfooter" position="1"/>
+      <hook module="tbhtmlblock" hook="displayNav" position="5"/>
+      <hook module="tbhtmlblock" hook="displayPDFInvoice" position="1"/>
+      <hook module="tbhtmlblock" hook="displayPayment" position="2"/>
+      <hook module="tbhtmlblock" hook="displayPaymentReturn" position="2"/>
+      <hook module="tbhtmlblock" hook="displayPaymentTop" position="1"/>
+      <hook module="tbhtmlblock" hook="displayProductButtons" position="2"/>
+      <hook module="tbhtmlblock" hook="displayProductComparison" position="1"/>
+      <hook module="tbhtmlblock" hook="displayProductListFunctionalButtons" position="1"/>
+      <hook module="tbhtmlblock" hook="displayProductTab" position="1"/>
+      <hook module="tbhtmlblock" hook="displayProductTabContent" position="1"/>
+      <hook module="tbhtmlblock" hook="displayRightColumn" position="2"/>
+      <hook module="tbhtmlblock" hook="displayRightColumnProduct" position="2"/>
+      <hook module="tbhtmlblock" hook="displayShoppingCart" position="1"/>
+      <hook module="tbhtmlblock" hook="displayShoppingCartFooter" position="1"/>
+      <hook module="tbhtmlblock" hook="displayTop" position="6"/>
+      <hook module="tbhtmlblock" hook="displayTopColumn" position="3"/>
+      <hook module="themeconfigurator" hook="Header" position="24"/>
+      <hook module="themeconfigurator" hook="displayFooter" position="7"/>
+      <hook module="themeconfigurator" hook="displayHome" position="1"/>
+      <hook module="themeconfigurator" hook="displayLeftColumn" position="10"/>
+      <hook module="themeconfigurator" hook="displayTopColumn" position="2"/>
+    </hooks>
+  </modules>
+  <images>
+    <image name="cart_default" width="80" height="80" products="true" categories="false" manufacturers="false" suppliers="false" scenes="false"/>
+    <image name="small_default" width="98" height="98" products="true" categories="false" manufacturers="true" suppliers="true" scenes="false"/>
+    <image name="medium_default" width="125" height="125" products="true" categories="true" manufacturers="true" suppliers="true" scenes="false"/>
+    <image name="home_default" width="250" height="250" products="true" categories="false" manufacturers="false" suppliers="false" scenes="false"/>
+    <image name="home_default_smaller" width="218" height="218" products="true" categories="false" manufacturers="false" suppliers="false" scenes="false"/>
+    <image name="home_default_smallest" width="211" height="211" products="true" categories="false" manufacturers="false" suppliers="false" scenes="false"/>
+    <image name="large_default" width="458" height="458" products="true" categories="false" manufacturers="true" suppliers="true" scenes="false"/>
+    <image name="thickbox_default" width="800" height="800" products="true" categories="false" manufacturers="false" suppliers="false" scenes="false"/>
+    <image name="category_default" width="870" height="217" products="false" categories="true" manufacturers="false" suppliers="false" scenes="false"/>
+    <image name="scene_default" width="870" height="270" products="false" categories="false" manufacturers="false" suppliers="false" scenes="true"/>
+    <image name="m_scene_default" width="161" height="58" products="false" categories="false" manufacturers="false" suppliers="false" scenes="true"/>
+  </images>
+</theme>

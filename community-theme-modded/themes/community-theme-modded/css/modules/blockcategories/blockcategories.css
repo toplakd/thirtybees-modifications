@@ -1,0 +1,64 @@
+.blockcategories .title_block {
+margin-bottom:5px;
+}
+
+.blockcategories .list-group-item {
+padding:6px 10px;
+border:0;
+margin:0;
+background-color:unset;
+}
+
+.blockcategories .list-group-item.current,.blockcategories .list-group-item.current + .btn-toggle {
+background-color:#428bce;
+color:#fff;
+}
+
+.blockcategories .list-group {
+margin-bottom:0;
+}
+
+.blockcategories .list-group-item-wrapper {
+position:relative;
+}
+
+.blockcategories .list-group-item-wrapper .list-group-item {
+padding-right:32px;
+}
+
+.blockcategories .btn-toggle {
+display:block;
+height:30px;
+width:30px;
+position:absolute;
+right:5px;
+top:1px;
+line-height:30px;
+text-align:center;
+font-size:20px;
+border-radius:5px;
+}
+
+.blockcategories .list-group-item-wrapper .btn-toggle.collapsed > .icon:before {
+content:"\f055";
+}
+
+.blockcategories .ilvl-2.list-group-item {
+padding-left:15px;
+background-color:#e0e0e0;
+}
+
+.blockcategories .ilvl-3.list-group-item {
+padding-left:30px;
+background-color:oldlace;
+}
+
+.blockcategories .list-group-item.current {
+background-color:#428bce;
+}
+
+.blockcategories .list-group-item:hover,.blockcategories .list-group-item:hover + .btn-toggle,.blockcategories .btn-toggle:hover,.blockcategories .list-group-item.current + .btn-toggle:hover,
+.blockcategories .list-group-item:focus {
+background-color:#428bee;
+color:#fff;
+}

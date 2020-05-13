@@ -1,0 +1,64 @@
+.blockcategoriesmobile .title_block {
+margin-bottom:5px;
+}
+
+.blockcategoriesmobile .list-group-item {
+padding:6px 10px;
+border:0;
+margin:0;
+background-color:unset;
+}
+
+.blockcategoriesmobile .list-group-item.current,.blockcategoriesmobile .list-group-item.current + .btn-toggle {
+background-color:#428bce;
+color:#fff;
+}
+
+.blockcategoriesmobile .list-group {
+margin-bottom:0;
+}
+
+.blockcategoriesmobile .list-group-item-wrapper {
+position:relative;
+}
+
+.blockcategoriesmobile .list-group-item-wrapper .list-group-item {
+padding-right:32px;
+}
+
+.blockcategoriesmobile .btn-toggle {
+display:block;
+height:30px;
+width:30px;
+position:absolute;
+right:5px;
+top:1px;
+line-height:30px;
+text-align:center;
+font-size:20px;
+border-radius:5px;
+}
+
+.blockcategoriesmobile .list-group-item-wrapper .btn-toggle.collapsed > .icon:before {
+content:"\f055";
+}
+
+.blockcategoriesmobile .ilvl-2.list-group-item {
+padding-left:15px;
+background-color:#e0e0e0;
+}
+
+.blockcategoriesmobile .ilvl-3.list-group-item {
+padding-left:30px;
+background-color:oldlace;
+}
+
+.blockcategoriesmobile .list-group-item.current {
+background-color:#428bce;
+}
+
+.blockcategoriesmobile .list-group-item:hover,.blockcategoriesmobile .list-group-item:hover + .btn-toggle,.blockcategoriesmobile .btn-toggle:hover,.blockcategoriesmobile .list-group-item.current + .btn-toggle:hover,
+.blockcategoriesmobile .list-group-item:focus {
+background-color:#428bee;
+color:#fff;
+}

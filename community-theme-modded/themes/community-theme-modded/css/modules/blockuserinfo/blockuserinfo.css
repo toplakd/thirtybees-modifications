@@ -1,0 +1,11 @@
+.phone-link {
+  color: #fff;
+}
+
+.phone-link:hover {
+  color: lightskyblue;
+}
+
+.navbar-text {
+  word-break: keep-all;
+}

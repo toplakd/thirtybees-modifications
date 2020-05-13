@@ -1,0 +1,35 @@
+{
+  "name": "community-theme-default",
+  "private": true,
+  "devDependencies": {
+    "del": "^5.1.0",
+    "glob-all": "^3.1.0",
+    "gulp": "^4.0.1",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-eslint": "^6.0.0",
+    "gulp-if": "^3.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "mkdirp": "^0.5.1"
+  },
+  "options": {
+    "themeName": "community-theme-default",
+    "themeModulePrefix": "ct",
+    "sourcemaps": false
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "scripts": {
+    "compile-css": "./node_modules/.bin/gulp compile-css",
+    "watch-sass": "./node_modules/.bin/gulp watch-sass",
+    "clean-up": "./node_modules/.bin/gulp clean-up",
+    "copy-index": "./node_modules/.bin/gulp copy-index",
+    "lint-js": "./node_modules/.bin/gulp lint-js",
+    "scan-translations": "./node_modules/.bin/gulp scan-translations"
+  },
+  "dependencies": {}
+}
