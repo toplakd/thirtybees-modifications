@@ -382,6 +382,8 @@
     </div>
   {/if}
 
+
+  {if $current_step=='payment'}
   {if !$advanced_payment_api && ((!empty($delivery_option) && (!isset($isVirtualCart) || !$isVirtualCart)) OR $delivery->id || $invoice->id) && !$opc}
     <div class="order_delivery clearfix row">
       {if !isset($formattedAddresses) || (count($formattedAddresses.invoice) == 0 && count($formattedAddresses.delivery) == 0) || (count($formattedAddresses.invoice.formated) == 0 && count($formattedAddresses.delivery.formated) == 0)}
@@ -449,6 +451,7 @@
         {/foreach}
       {/if}
     </div>
+  {/if}
   {/if}
 
 
