@@ -5,7 +5,7 @@
     <description iso="en"/>
   </descriptions>
   <variations>
-    <variation name="Community-Theme-Modded" directory="community-theme-modded" responsive="1" default_left_column="0" default_right_column="0" product_per_page="18" from="1.1.0"/>
+    <variation name="Community-Theme-Modded" directory="community-theme-modded" responsive="1" default_left_column="1" default_right_column="0" product_per_page="18" from="1.1.0"/>
   </variations>
   <docs>
     <doc name="documentation" path="doc/"/>
