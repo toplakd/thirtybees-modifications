@@ -9613,29 +9613,34 @@ ul.address {
   border-top: 1px solid #ccc;
 }
 
+#links_block_left .list-block li,
 .blockcms-block .list-block li,
 .myaccount-column .list-block li {
   padding: 0;
   border-top: 1px solid #ccc;
 }
 
+#links_block_left .list-block ul li  a,
 .blockcms-block .list-block ul li > a,
 .myaccount-column .list-block ul li > a{
   display: block;
   padding: 6px;
 }
 
+#links_block_left .list-block ul li  a:hover,
 .blockcms-block .list-block ul li > a:hover,
 .myaccount-column .list-block ul li > a:hover{
   background-color: #428bce;
   color: #fff;
 }
 
+#links_block_left .title_block,
 .blockcms-block .title_block,
 .myaccount-column .title_block{
     margin-bottom: 5px;
 }
 
+#links_block_left .list-block li:first-child,
 .block .list-block li:first-child {
   border-top: none;
 }
