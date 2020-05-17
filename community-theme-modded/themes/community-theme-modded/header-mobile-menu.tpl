@@ -3,8 +3,10 @@
     <!--Left Float Buttons -->
     <div class="alza-nav-buttons-left">
         <!--Toggle Button Home -->
+        <!--Default use menu_toggle5() for link to store home -->
+        <!--Custom  use menu_toggle4() for opening sidebar4 which can be modified for own needs -->
         <div class="alza-toggle-button-width">
-                <button class="alza-toggle-button" onclick="menu_toggle5()" >
+                <button class="alza-toggle-button" onclick="menu_toggle4()" >
                     <i class="icon-home"></i>
                 </button>
         </div>
@@ -60,21 +62,26 @@
     </div>
 </div>
 
+<!--Sidebar4 User configurated and opens with home button. -->
+<div id="mySidebar4">
+    <ul>
+        <li>Modify this sidebar</li>
+        <li>to your own needs</li>
+    </ul>
+</div>
+
+
+<!--Sidebar script for opening/closing the sidbars. -->
 <script>
 
    function menu_toggle0() {
-            $("#mySidebar1").removeClass('active');
-            $("#mySidebar2").removeClass('active');
-            $("#mySidebar3").removeClass('active');
-            $("#mySidebar4").removeClass('active');
+            $("#mySidebar1, #mySidebar2, #mySidebar3, #mySidebar4").removeClass('active');
             document.getElementById("myOverlay").style.display = "none"; 
             document.body.style.overflowY = "auto";
    }
 
    function menu_toggle1() {
-            $("#mySidebar2").removeClass('active');
-            $("#mySidebar3").removeClass('active');
-            $("#mySidebar4").removeClass('active');
+            $("#mySidebar2, #mySidebar3, #mySidebar4").removeClass('active');
         if ( $("#mySidebar1").hasClass('active') ) {
             $("#mySidebar1").removeClass('active');
             document.getElementById("myOverlay").style.display = "none"; 
@@ -87,9 +94,7 @@
     }
 
    function menu_toggle2() {
-            $("#mySidebar1").removeClass('active');
-            $("#mySidebar3").removeClass('active');
-            $("#mySidebar4").removeClass('active');
+            $("#mySidebar1, #mySidebar3, #mySidebar4").removeClass('active');
         if ( $("#mySidebar2").hasClass('active') ) {
             $("#mySidebar2").removeClass('active');
             document.getElementById("myOverlay").style.display = "none"; 
@@ -102,9 +107,7 @@
     }
 
    function menu_toggle3() {
-            $("#mySidebar1").removeClass('active');
-            $("#mySidebar2").removeClass('active');
-            $("#mySidebar4").removeClass('active');
+            $("#mySidebar1, #mySidebar2, #mySidebar4").removeClass('active');
         if ( $("#mySidebar3").hasClass('active') ) {
             $("#mySidebar3").removeClass('active');
             document.getElementById("myOverlay").style.display = "none"; 
@@ -117,9 +120,7 @@
     }
     
    function menu_toggle4() {
-            $("#mySidebar1").removeClass('active');
-            $("#mySidebar2").removeClass('active');
-            $("#mySidebar3").removeClass('active');
+            $("#mySidebar1, #mySidebar2, #mySidebar3").removeClass('active');
         if ( $("#mySidebar4").hasClass('active') ) {
             $("#mySidebar4").removeClass('active');
             document.getElementById("myOverlay").style.display = "none"; 
@@ -132,14 +133,10 @@
     }
 
    function menu_toggle5() {
-            $("#mySidebar1").removeClass('active');
-            $("#mySidebar2").removeClass('active');
-            $("#mySidebar3").removeClass('active');
-            $("#mySidebar4").removeClass('active');
+            $("#mySidebar1, #mySidebar2, #mySidebar3, #mySidebar4").removeClass('active');
             document.getElementById("myOverlay").style.display = "none"; 
             document.body.style.overflowY = "auto";
             window.location = "/index.php";
    }
 
 </script>
-                
