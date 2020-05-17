@@ -49,7 +49,6 @@
 <!--Sidebar2 BlockCart -->
 <!--is added directly into blockcart.tpl template -->
 
-
 <!--Sidebar3 User/CMS -->
 <div id="mySidebar3">
     <div class="alza-user-login-dropdown">
@@ -64,12 +63,14 @@
 
 <!--Sidebar4 User configurated and opens with home button. -->
 <div id="mySidebar4">
-    <ul>
-        <li>Modify this sidebar</li>
-        <li>to your own needs</li>
-    </ul>
+    <div class="sidebar-blocks">
+        <p>Configure this sidebar to your own needs in header-mobile-menu.tpl</p>
+        <p>Change line 9 to menu_toggle5() if you want to use button only for linking to your store home, without opening sidebar</p>
+        {hook h= 'displayLeftColumn' mod= 'blocklink'}
+        {hook h= 'displayLeftColumn' mod= 'blockstore'}
+        {hook h= 'displayFooter' mod= 'blockcontactinfos'}
+    </div>
 </div>
-
 
 <!--Sidebar script for opening/closing the sidbars. -->
 <script>
