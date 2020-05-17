@@ -24,14 +24,14 @@
     bottom:0;
     z-index:5000;
 	background-color:rgba(0,0,0,0.7);
-    transition: background-color .1s ease-in-out;
+    transition: .5s ease-in-out;
 }
 
 #mySidebar1 .block,
 #mySidebar2 .block,
 #mySidebar3 .block,
 #mySidebar4 .block {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 #mySidebar1 .block .title_block,
@@ -42,6 +42,88 @@
     border-top: 2px solid #428bce;
 }
 
+
+/* mySidebar1 start*/
+#mySidebar1 {
+    left: -320px;
+    height: calc(100% - 50px);
+    width:310px;
+    top: 50px;
+    position: fixed;
+    overflow-x: hidden;
+    transition: width 0.4s ease-in-out;
+    z-index: 5005;
+    transition: all 0.5s;
+    background: #fff;
+    padding: 5px;
+}
+
+#mySidebar1.active {
+    left: 0px;
+}
+
+#mySidebar1 .block {
+    border: none;
+    box-shadow: none;
+    border-radius: 0px;
+    margin-bottom: 5px;
+}
+
+#mySidebar1 #search_block_top {
+    float: none;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+/* mySidebar1 end*/
+
+
+/* mySidebar2 start*/
+#mySidebar2 {
+    right: -320px;
+    height: calc(100% - 50px);
+    width: 310px;
+    top: 50px;
+    background: #fff;
+    padding: 5px;
+    position: fixed;
+    overflow-x: hidden;
+    z-index: 5004;
+    transition: all 0.5s;
+}
+
+#mySidebar2.active {
+    right: 0px;
+}
+
+#mySidebar2 #blockcart-dropdown { display: block; }
+/* mySidebar2 end*/
+
+
+/* mySidebar3 start*/
+#mySidebar3 {
+    text-align: center;
+    right: -320px;
+    height: calc(100% - 50px);
+    width: 310px;
+    top: 50px;
+    background: #fff;
+    padding: 5px;
+    position: fixed;
+    overflow-x: hidden;
+    transition: width 0.4s ease-in-out;
+    z-index: 5004;
+    transition: all 0.5s;
+}
+
+#mySidebar3.active {
+    right: 0px;
+}
+
+#mySidebar3 .navbar-text, #mySidebar3 .navbar-text a {
+    float: none;
+    margin: 0;
+    color: #333;
+}
 
 #mySidebar3 ul li {
     padding: 0px;
@@ -69,9 +151,6 @@
     padding: 10px 5px;
 }
 
-
-#blockcart-dropdown { display: block; }
-
 #mySidebar3 #blockuserinfo-customer, #mySidebar3 #blockuserinfo-login {
     color: #fff;
     background: #323A46;
@@ -94,65 +173,49 @@
 #mySidebar3 .myaccount-column .logout {
     display: none;
 }
+/* mySidebar3 end*/
 
-#mySidebar2 {
-    right: -320px;
-    height: calc(100% - 50px);
-    width: 310px;
-    top: 50px;
-    background: #fff;
-    padding: 5px;
-    position: fixed;
-    overflow-x: hidden;
-    z-index: 5004;
-    transition: all 0.5s;
-}
 
-#mySidebar2.active {
-    right: 0px;
-}
 
-#mySidebar3 {
-    text-align: center;
-    right: -320px;
-    height: calc(100% - 50px);
-    width: 310px;
-    top: 50px;
-    background: #fff;
-    padding: 5px;
-    position: fixed;
-    overflow-x: hidden;
-    transition: width 0.4s ease-in-out;
-    z-index: 5004;
-    transition: all 0.5s;
-}
-
-#mySidebar3.active {
-    right: 0px;
-}
-
-#mySidebar3 .navbar-text, #mySidebar3 .navbar-text a {
-    float: none;
-    margin: 0;
-    color: #333;
-}
-
+/* mySidebar4 start*/
 #mySidebar4 {
-    color:transparent;
-    left: -300px;
-    max-height: calc(100% - 70px);
-    width:290px;
-    top: 60px;
+    left: -320px;
+    height: calc(100% - 50px);
+    width: 310px;
+    top: 50px;
+    background: #fff;
+    padding: 5px;
     position: fixed;
     overflow-x: hidden;
     transition: width 0.4s ease-in-out;
-    z-index: 5005;
+    z-index: 5004;
     transition: all 0.5s;
 }
 
 #mySidebar4.active {
-    left: 15px;
+    left: 0px;
 }
+
+#mySidebar4 #blockcontactinfos {
+    padding: 0;
+}
+
+#mySidebar4 .footer-title {
+    color: #fff;
+    background: #323A46;
+    font-size: 22px;
+    border-top: 2px solid #428bce;
+    border-bottom: 2px solid #428bce;
+    padding: 10px 15px;
+    margin: 0 0 5px;
+}
+
+#mySidebar4 #blockcontactinfos ul {
+    padding-left: 5px;
+}
+
+
+/* mySidebar4 end*/
 
 
 /* alza-top-navigation-bar */
@@ -187,16 +250,6 @@
 .alza-nav-buttons-left { float:left; }
 .alza-nav-buttons-right { float:right; }
 
-.mini-logo {
-margin: auto;
-position: absolute;
-top: 6px;
-left: 0;
-right: 0;
-z-index: -1;
-width: 40px;
-}
-
 @media (max-width: 767px) {
     #category-info,
     #category-subcategories,
@@ -212,41 +265,9 @@ width: 40px;
     }
     
     #columns { padding-bottom: 0px; }
-
-    #mySidebar1 {
-        left: -320px;
-        height: calc(100% - 50px);
-        width:310px;
-        top: 50px;
-        position: fixed;
-        overflow-x: hidden;
-        transition: width 0.4s ease-in-out;
-        z-index: 5005;
-        transition: all 0.5s;
-        background: #fff;
-        padding: 5px;
-    }
-
-    #mySidebar1.active {
-        left: 0px;
-    }
-
-    #mySidebar1 .block {
-        border: none;
-        box-shadow: none;
-        border-radius: 0px;
-        margin-bottom: 5px;
-    }
-
-    #mySidebar1 #search_block_top {
-        float: none;
-        margin-bottom: 15px;
-        margin-top: 10px;
-    }
 }
 
 @media (min-width: 768px) {
-    #mySidebar1,
     .alza-nav-buttons-left,
     .alza-nav-buttons-right .alza-toggle-button-user {
         display: none;
