@@ -212,7 +212,7 @@
     padding-left: 5px;
 }
 
-#mySidebar4 .col-sm-3 {
+#mySidebar4 #blockcontactinfos.col-sm-3 {
     width: 100%;
 }
 
