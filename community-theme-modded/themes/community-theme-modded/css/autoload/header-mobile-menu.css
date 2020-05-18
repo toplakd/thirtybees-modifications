@@ -39,7 +39,6 @@
 #mySidebar3 .block .title_block,
 #mySidebar4 .block .title_block {
     border-radius: 0px;
-    border-top: 2px solid #428bce;
 }
 
 
@@ -204,7 +203,6 @@
     color: #fff;
     background: #323A46;
     font-size: 22px;
-    border-top: 2px solid #428bce;
     border-bottom: 2px solid #428bce;
     padding: 10px 15px;
     margin: 0 0 5px;
@@ -214,6 +212,9 @@
     padding-left: 5px;
 }
 
+#mySidebar4 .col-sm-3 {
+    width: 100%;
+}
 
 /* mySidebar4 end*/
 
@@ -272,4 +273,6 @@
     .alza-nav-buttons-right .alza-toggle-button-user {
         display: none;
     }
+/* uncomment bottom line if you don't want to display links block on bigger screens */
+/* #links_block_left { display: none; } */
 }
