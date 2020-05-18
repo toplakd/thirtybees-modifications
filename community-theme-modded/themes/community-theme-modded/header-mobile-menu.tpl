@@ -69,6 +69,7 @@
         {hook h= 'displayLeftColumn' mod= 'blocklink'}
         {hook h= 'displayLeftColumn' mod= 'blockstore'}
         {hook h= 'displayFooter' mod= 'blockcontactinfos'}
+
     </div>
 </div>
 
