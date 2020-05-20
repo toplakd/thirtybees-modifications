@@ -28,6 +28,8 @@ body {
 
 body.content_only {
   background-color: #fff;
+  width: auto;
+  min-width: auto;
 }
 
 
@@ -10417,7 +10419,15 @@ p.required {
     padding: 5px;
 }
 
+/* fancybox-error-messages */
+.fancybox-error { 
+    white-space: normal !important;
+    text-align: center;
+}
+
+
 /* leave at the end */
 .unvisible {
   display: none;
 }
+
