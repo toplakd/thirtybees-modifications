@@ -37,9 +37,14 @@
     {if $product.reference}
     <div class="product_description">
       <small class="cart_ref">{l s='SKU'}{$smarty.capture.default}{$product.reference|escape:'html':'UTF-8'}</small>
-      {if isset($product.attributes) && $product.attributes}
-      <small><a href="{$link->getProductLink($product.id_product, $product.link_rewrite, $product.category, null, null, $product.id_shop, $product.id_product_attribute, false, false, true)|escape:'html':'UTF-8'}">{$product.attributes|@replace: $smarty.capture.sep:$smarty.capture.default|escape:'html':'UTF-8'}</a></small>
-      {/if}
+    </div>
+    {/if}
+
+    {if isset($product.attributes) && $product.attributes}
+    <div class="product_description">
+      <small>
+          <a href="{$link->getProductLink($product.id_product, $product.link_rewrite, $product.category, null, null, $product.id_shop, $product.id_product_attribute, false, false, true)|escape:'html':'UTF-8'}">{$product.attributes|@replace: $smarty.capture.sep:$smarty.capture.default|escape:'html':'UTF-8'}</a>
+      </small>
     </div>
     {/if}
   </div>
@@ -151,4 +156,3 @@
   </div>
 </div>
 </div>
-</tr>
